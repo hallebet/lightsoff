@@ -24,7 +24,7 @@
 			"outArguments": [
 				
 	],
-		"url": "https://fuelseuba.herokuapp.com/execute?var=b", 
+		"url": "https://fuelseuba.herokuapp.com/?var=b", 
 		"verb": "POST",
         "body": "",
 		"header": "",

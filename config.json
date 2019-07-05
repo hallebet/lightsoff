@@ -22,9 +22,9 @@
                 
             ],
 			"outArguments": [
-				{  "lights": ""}
+				
 	],
-		"url": "hhttps://fuelseuba.herokuapp.com/?var=b/execute", 
+		"url": "https://fuelseuba.herokuapp.com/?var=b", 
 		"verb": "POST",
         "body": "",
 		"header": "",
@@ -39,7 +39,7 @@
 		  "verb": "POST"
        },
        "publish": {
-          "url": "https://sportslightoff.herokuapp.com//", 
+          "url": "https://sportslightoff.herokuapp.com/", 
 		  "verb": "POST"
        },
        "validate": {
@@ -68,15 +68,7 @@
 			"execute": {
 				"inArguments": [],
 				 "outArguments": [
-                    {
-                        "lights": {
-                           	"dataType": "Text",
-				"isNullable": false,
-				"access": "visible",
-				"readOnly": false,
-				"direction": "out"
-                        }
-                    }
+   
                 ]
 	     }
 	}

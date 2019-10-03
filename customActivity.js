@@ -60,7 +60,7 @@ define([
 
         if (!message) {
             showStep(null, 1);
-            connection.trigger('updateButton', { button: 'next', enabled: false });
+            connection.trigger('updateButton', { button: 'next', enabled: true });
         } else {
             $('#select1').val();
             $('#message').html(message);

@@ -28,12 +28,12 @@ define([
 		connection.trigger('requestTokens');
         connection.trigger('requestEndpoints');
 		
-        $('#select1').change(function() {
+       
             var message = getMessage();
             connection.trigger('updateButton', { button: 'next', enabled: Boolean(message) });
 
             $('#message').html(message);
-        });
+       
 	}
 	function initialize (data) {
         if (data) {
@@ -131,7 +131,7 @@ define([
     }
 
     function save() {
-        var name = $('#select1').find('option:selected').html();
+        var name = $('#select1').val();
         var value = getMessage();
 	
 
@@ -142,9 +142,9 @@ define([
     }
 
     function getMessage() {
-		var albert = $('#select1').find('option:selected').attr('value').trim();
+		var albert = $('#select1').val();
 		console.log (albert);
-        return $('#select1').find('option:selected').attr('value').trim();
+        return $('#select1').val();
     }
    
 });

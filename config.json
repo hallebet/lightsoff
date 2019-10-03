@@ -24,7 +24,7 @@
 			"outArguments": [
 				
 	],
-		"url": "https://fuelseuba.herokuapp.com/?var=b&courtid={{Contact.Attribute.Games.CourtID}}", 
+		"url": "https://fuelseuba.herokuapp.com/?var=b", 
 		"verb": "POST",
         "body": "",
 		"header": "",

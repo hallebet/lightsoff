@@ -62,7 +62,7 @@ define([
             showStep(null, 1);
             connection.trigger('updateButton', { button: 'next', enabled: false });
         } else {
-            $('#select1').find('option[value='+ message +']').attr('selected', 'selected');
+            $('#select1').value();
             $('#message').html(message);
             showStep(null, 2);
         }
